@@ -1,2 +1,2 @@
-# pa-codigos-iniciales-y-datos-para-estudiantes
-Respositorio con códigos iniciales y datos para estudiantes. Los datos corresponden a aquellos necesarios para realizar ejercicios, problemas, etc.
+# Código y datos para los problemas de la clase de Trabajos Prácticos
+Respositorio con códigos y datos para resolver los problemas de las guías de trabajos prácticos.
