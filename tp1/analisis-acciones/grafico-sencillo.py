@@ -14,12 +14,16 @@ tiempo = [i/N for i in range(N) ]
 serie1 = [m.sin(2*m.pi*f*t) for t in tiempo ]
 serie2 = [m.cos(2*m.pi*f*t) for t in tiempo ]
 
+
+
+
 # Gráfico PU
-plt.subplot(2, 1, 1)    # 1 fila, 2 columnas, primer gráfico
+plt.subplot(2, 1, 1)    # 2 fila, 1 columnas, primer gráfico
 plt.plot(tiempo,serie1, label="Google")
+plt.grid()
 plt.title('Series google')
 
-plt.subplot(2, 1, 2)    # 1 fila, 2 columnas, segundo grafico
+plt.subplot(2, 1, 2)    # 2 fila, 1 columnas, segundo grafico
 plt.plot(tiempo,serie2, label="Nike")
 plt.title('Series nike')
 
