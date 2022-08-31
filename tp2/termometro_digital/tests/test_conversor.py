@@ -13,13 +13,13 @@ class TestConversor(unittest.TestCase):
     def setUp(self):
         pass
     
-    # def test_conversor_rango_valido(self):
+    # def test_convertir_valor_en_rango_valido(self):
         
     #     c = Conversor(0.0,5.0,-40.0,130.0)
     #     val_min = c.convertir(0.0)
     #     self.assertEqual(-40, val_min)
     
-    def test_conversor_valor_fuera_de_rango(self):
+    def test_convertir_valor_fuera_de_rango(self):
         
         c = Conversor(0.0,5.0,-40.0,130.0)
         with self.assertRaises(ValueError):
